@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 15, 2015, 9:27:58 PM
+    Author     : Mirage
+*/
+
+body{
+    //background-color: #333333
+}
+.custom-nav {
+    background-color: #000; 
+}
+
+.nav > li> .nav-home{
+    font-weight: bold;
+}
+
+.nav > li> .nav-home:hover,
+.nav > li> .nav-home:focus {
+
+    color: black;    
+    background-color: #eeeeee;
+}
+
+.nav-text{
+    color: white;
+
+}
+
+.nav-download{
+    margin-right: 50px;
+
+    animation: navDownloadAnim 1s ease-in-out 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation: navDownloadAnim 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes navDownloadAnim {
+    from {box-shadow: 0 0 0px black; }
+    to {box-shadow: 0 0 30px white  ;}
+}
+
+@keyframes navDownloadAnim {
+    from {box-shadow: 0 0 0px black; }
+    to {box-shadow: 0 0 30px white  ;}
+}
+
+.nav > li > a{
+    transition: all .4s linear;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+
+    color: #eeeeee;
+    background-color: #666666;
+}
+
+.container-start {
+    display: block;
+    height: 550px;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/t-95.jpgj) no-repeat center top fixed;
+    background-color: #454545;
+    background-size: cover;
+
+}
+
+
+.container-start h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 1px #000;
+}
+
+.container-start h3 {
+    text-shadow: 3px 3px 1px #000;
+}
+
+.container-start p {
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.decepticons-logo{
+    margin-top: 5px;
+    width: auto;
+    height: 100px;
+}
+
+hr{
+    margin: 0 0;
+    border:1px solid #cccccc;
+}
+
+
+.section-custom {
+    padding: 100px 150px;
+    background-color: #333333;
+    height: auto;
+}
+
+
+.section-custom h2{
+  
+    color: white;
+}
+.section-custom p{
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+.social-facebook{
+    display: inline-block;
+    background:url(../img/wg_dark_sm_facebook.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 48px;
+    border: 0;
+    vertical-align: middle; 
+
+    transition: all .4s ease-in-out;
+    
+}
+
+.social-facebook:hover{
+    box-shadow: 0 0 18px blue;
+}
+
+
+.social-twitter{
+    display: inline-block;
+    background:url(../img/wg_dark_sm_twiter.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 48px;
+    border: 0;
+    vertical-align: middle; 
+
+    transition: all .4s ease-in-out;
+    
+}
+
+.social-twitter:hover{
+    box-shadow: 0 0 18px lightblue;
+}
+
+
+.social-googleplus{
+    display: inline-block;
+    background:url(../img/wg_dark_sm_googleplus.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 48px;
+    border: 0;
+    vertical-align: middle; 
+
+    transition: all .4s ease-in-out;
+    
+}
+
+.social-googleplus:hover{
+    box-shadow: 0 0 18px #ff3333;
+}
